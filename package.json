@@ -1,0 +1,40 @@
+{
+  "name": "jrfjwt",
+  "version": "1.0.0",
+  "description": "JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/tests.js"
+  },
+  "keywords": [
+    "jwt",
+    "jrfjwt",
+    "jrf"
+  ],
+  "author": {
+    "name": "jirufik",
+    "url": "https://github.com/jirufik"
+  },
+  "maintainers": [
+    {
+      "name": "jirufik",
+      "url": "https://github.com/jirufik"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "mongodb": "^3.1.12",
+    "pg": "^7.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirufik/jrfjwt"
+  }
+}
